@@ -1,0 +1,175 @@
+body {
+font-family:arial;
+background:#f1f4f9;
+}
+
+#content {
+padding:0 20px;
+}
+
+.media-list {
+margin-top:20px;
+}
+
+.car-lis {
+margin-top:25px;
+}
+
+.media-body p {
+padding-bottom:5px;
+margin:0;
+}
+
+.media {
+border:1px solid #E7E7E7;
+background-color:#F8F8F8;
+}
+
+.media-body {
+padding-left:10px;
+border-left:1px solid #E7E7E7;
+}
+
+.media-left.media-middle {
+padding:0;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+background-color:#d8e9fb;
+border:1px solid #a7d4f7;
+}
+
+nav.navbar {
+background:#2687e9;
+color:#fff;
+border-radius:0;
+margin-bottom:0;
+}
+
+nav.navbar .container img {
+float:left;
+margin:18px;
+}
+
+table#grid-keep-selection {
+background:#fff;
+border:1px solid #ccc;
+border-radius:10px;
+}
+
+thead {
+border-radius:47px;
+background:#f8fafc;
+color:#526f8b;
+}
+
+i.fa.fa-square-o,i.fa.fa-check-square-o {
+font-size:24px;
+color:#ccc;
+line-height:10px;
+cursor:pointer;
+margin-left:5px;
+margin-top:10px;
+}
+
+i.fa.fa-check-square-o {
+color:#444;
+}
+
+#btn-new-car {
+width:170px;
+height:40px;
+background:#4aba58;
+border:none;
+border-radius:3px;
+color:#fff;
+font-size:14px;
+float:left;
+}
+
+#grid-keep-selection td {
+color:#526f8b;
+}
+
+div#btn-search {
+float:right;
+height:40px;
+}
+
+div#btn-search button {
+background:#f1f4f9;
+color:#526f8b;
+height:100%;
+}
+
+div#btn-search input {height: calc(100% - 9.5px);width:180px;}
+
+p.ng-binding {
+margin:0;
+}
+
+div#car-new {
+display:none;
+}
+
+ul#pagination {
+list-style:none;
+border:1px solid #ccc;
+float:left;
+background:#fff;
+height:40px;
+border-radius:2px;
+text-align:center;
+margin:0;
+}
+
+ul#pagination li {
+float:left;
+border-right:1px solid #ccc;
+cursor:pointer;
+width:15px;
+text-align:center;
+height:20px;
+padding:10px;
+}
+
+ul#pagination li:last-child {
+border:none;
+}
+
+.selected-row {
+background:#d8e9fb;
+box-shadow:0 0 0 1px #a7d4f7 inset;
+}
+
+#btn-edit-car,#btn-remove-car {
+font-size:20px;
+color:#2687e9;
+margin-left:20px;
+float:left;
+padding-top:10px;
+background:transparent;
+border:none;
+}
+
+#pagination button {
+border:none;
+background:transparent;
+}
+
+div#pagination-container {
+max-width:250px;
+margin:auto;
+}
+
+ul#pagination li:hover {
+background:#fffaeb;
+}
+
+.selected-page {
+background:#d8e9fb;
+}
+
+input:invalid {
+box-shadow:0 0 5px 1px red;
+}
